@@ -1,0 +1,71 @@
+.xl-text {
+  font-size: 65px;
+}
+
+header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/netlix-header.jpg") center center no-repeat;
+}
+
+.card {
+  min-height: 400px;
+}
+
+.card-body {
+  padding: 2rem !important;
+  border-radius: 1rem !important;
+  background: rgb(15, 176, 254);
+  background: linear-gradient(169deg, rgba(15, 176, 254, 0.2525385154) 0%, rgba(255, 0, 0, 0.1853116246) 100%);
+}
+
+.form-control {
+  border-radius: 2px !important;
+}
+
+.footinput::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: 0.8rem !important;
+}
+
+.headinput::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: 0.8rem !important;
+}
+
+.card .card-text {
+  opacity: 0.8 !important;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1400px) {
+  .card {
+    min-height: 250px;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 991px) {
+  .buttheader {
+    margin-top: 1rem !important;
+  }
+  .card {
+    min-height: 120px;
+  }
+  .flex-cta {
+    flex-direction: column !important;
+  }
+  .buttfoot {
+    margin-top: 1rem;
+  }
+  .carousel-item .row {
+    padding: 0px 0.2rem !important;
+  }
+}
+@media (max-width: 575px) {
+  .img1 {
+    margin-bottom: 0 !important;
+  }
+  .caro {
+    margin-bottom: 0 !important;
+  }
+}
